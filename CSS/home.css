@@ -1,0 +1,912 @@
+/*HOME PAGE CONTENT*/
+
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.Logo {
+
+    font-family: 'EB Garamond', serif;
+    font-size: 3vw;
+    padding-top: 4%;
+    padding-left: 0;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    display: none;
+
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.nav {
+    display: flex;
+}
+
+
+
+.MobileHomeImage {
+    display: none;
+}
+
+.HomePadding {
+    padding-left: 6%;
+
+
+}
+
+.Announcement {
+    font-family: 'Inconsolata', monospace;
+    padding-left: 0;
+    font-size: 2.4930747922437675vh;
+    width: 40%;
+    padding-bottom: 4%;
+    padding-top: 1%;
+    max-width: 45ch;
+}
+
+.HomeList {
+    font-family: 'Inconsolata', monospace;
+    list-style-type: none;
+    padding-top: 4%;
+    font-size: 2.4930747922437675vh;
+    padding-left: 0;
+
+    /*    display: inline-block;*/
+}
+
+li {
+    display: inline;
+    padding-right: 3%;
+}
+
+ul {
+    /*    list-style-type: none;*/
+
+}
+
+.HomeImage {
+    z-index:-1;
+}
+.HomeImage img {
+    max-width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .HomeImage img {
+
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .Announcement {
+        min-width: 40ch;
+        text-align: center;
+        font-size: 4vw;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+.test {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .HomePadding {
+        padding-left: 0;
+    }
+
+    .HomeList {
+        display: none;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+
+    }
+
+
+    .HomeList.show > * {
+        margin: 20px 0 0 20px;
+    }
+
+    .HomeList.show {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+
+    }
+
+
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 4%;
+    }
+
+    .Logo {
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10%;
+        padding-bottom: 6%;
+        font-size: 8vw;
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .MobileHomeImage {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+
+/*VISUAL ARTS PAGE CONTENT*/
+
+.container {
+    display: flex;
+}
+
+.ImageWrap {
+    padding-top: 7%;
+    padding-left: 4.3%;
+    margin: 0;
+    margin-right: 5%;
+    width: 28%;
+    float: left;
+}
+
+.center img {
+    justify-content: center;
+    margin: 0;
+}
+
+.ImageWrap img {
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 5%;
+    width: 100%;
+    float: left;
+
+}
+
+.TitleWrapText {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 16.3%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.5vw;
+
+
+}
+
+.TitleWrapTextSub {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.8vw;
+
+
+}
+
+.TitleWrapTextSub2 {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.8vw;
+
+
+}
+
+.BFP {
+    padding-left: 4%;
+}
+
+.TextWrapText {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.2vw;
+
+}
+
+.TextWrapTextSub {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.2vw;
+
+}
+
+.process {
+    padding-left: 2.5%;
+}
+
+.TextWrapTextSub2 {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.2vw;
+    width: 120ch;
+}
+
+.roaThumbnailText {
+
+    font-family: 'Inconsolata', monospace;
+    padding-top: 7%;
+    padding-left: 6%;
+    width: 54ch;
+
+}
+
+.VisuaPageGrid {
+    display: grid;
+    grid-template-columns: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: block;
+
+    }
+
+    .ImageWrap {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .ImageWrap img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+    .TitleWrapText {
+        text-align: left;
+        padding-bottom: 10%;
+        font-size: 1.5vw;
+        padding-left: 0;
+        text-align: center;
+
+    }
+
+    .TextWrapTextSub2 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 4vw;
+        width: 40ch;
+        padding-left: 0;
+    }
+
+    .TextWrapText {
+        display: none;
+
+
+    }
+}
+
+/*BFP SUP PAGE CONTENT*/
+
+.ClothingGallery {
+
+    padding-top: 4%;
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 28%;
+    float: left;
+}
+
+.ClothingGallery img {
+
+    margin: 0;
+
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .ClothingGallery {
+        display: block;
+        width: 100%;
+
+    }
+}
+
+
+/*DIGITAL ART PRINTS SUB PAGE CONTENT*/
+
+
+
+.PrintPageImage img {
+    max-width: auto;
+    height: 90%;
+    position: absolute;
+    top: 0px;
+    right: 20%;
+    z-index: -99;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .TitleWrapText {
+        font-size: 24px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+
+.LogoText {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5.3%;
+    padding-left: 2%;
+    font-size: 1.5vw;
+}
+
+.PrintGallery {
+
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-bottom: 3%;
+    margin: 0;
+    margin-right: 0%;
+    width: 50%;
+    float: left;
+
+}
+
+.PrintGallery img {
+
+    margin: 0;
+
+    width: 87%;
+    float: left;
+}
+
+.PrintTitle {
+    padding-top: 5%;
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace;
+}
+
+.PrintText {
+    font-size: 1.2vw;
+    width: 60ch;
+}
+
+
+
+.monkeybushimg {
+    padding-top: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    .PrintGallery {
+        display: block;
+        width: 100%;
+
+
+
+    }
+
+    .PrintTitle {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .PrintText {
+        font-size: 4vw;
+        text-align: center;
+        padding-bottom: 15%;
+        margin: 0 auto;
+        width: 40ch;
+    }
+
+    .BFP {
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .ThumbTextWrap {
+
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding-left: 0;
+
+    }
+
+    .ThumbTextWrap img {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+
+
+    .TitleWrapTextSub {
+
+        /*  margin:0 auto;*/
+        min-width: 20ch;
+        text-align: left;
+        font-size: 5vw;
+        padding-left: 7.5%;
+
+
+        margin-bottom: 2%;
+        margin-top: 2%;
+
+
+
+
+    }
+
+    .TextWrapTextSub {
+        width: 100%;
+        width: 40ch;
+        padding-left: 0%;
+        text-align: left;
+        font-size: 4vw;
+
+        margin: 0 auto;
+        padding-bottom: 10%;
+
+
+    }
+
+    .PrintPageImage {
+        display: none;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .PrintGallery {
+        display: inline-block;
+        width: 100%;
+
+        padding: 0;
+        padding-right: 0;
+    }
+
+    .PrintGallery img {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 10%;
+        padding-top: 0%;
+        padding-left: 0;
+        padding-right: 0%;
+    }
+
+    .monkeybushimg {
+        padding-top: 0%;
+    }
+}
+
+
+
+
+
+/*GRAPHICS SUB PAGE*/
+
+.GraphicsGallery {
+
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-left: 3.5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 28%;
+    float: left;
+}
+
+.GraphicsGallery img {
+    margin: 0;
+
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .GraphicsGallery {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+
+    }
+}
+
+
+/*RANDOM OBJECTS ARRANGEMENT SUB-PAGE*/
+
+.RoaTitle {
+    padding-left: 8%;
+    padding-top: 18%;
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .RoaTitle {
+        padding-left: 0;
+
+        margin: 0 auto;
+
+
+        text-align: center;
+        font-size: 4vw;
+
+    }
+}
+
+
+/*UX/UI CASE STUDIES*/
+
+.figcaption {
+    font-family: 'Inconsolata', monospace;
+}
+
+.CaseStudyHeaderImage img {
+    width: 55%;
+    padding-left: 30%;
+}
+
+.TextWrapTextSub1 {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5%;
+    padding-left: 2.5%;
+    margin: 0;
+    font-size: 1.2vw;
+    width: 110ch;
+
+}
+
+.TitleWrapTextSub1 {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 10%;
+    padding-left: 2.5%;
+    margin: 0;
+    font-size: 1.8vw;
+
+
+
+}
+
+.CaseStudyImageGallery {
+
+    padding-top: 4%;
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 28%;
+    float: left;
+    font-family: 'Inconsolata', monospace;
+}
+
+.CaseStudyImageGallery {
+
+    padding-top: 4%;
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 28%;
+    float: left;
+
+}
+
+
+.CaseStudyImageGallery img {
+
+    margin: 0;
+
+    width: 95%;
+    float: left;
+}
+
+.CaseStudyImageGallery1 {
+
+    padding-top: 4%;
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 60%;
+    float: left;
+}
+
+.CaseStudyImageGallery1 img {
+
+    margin: 0;
+
+    width: 95%;
+    float: left;
+}
+
+.CaseStudyImageGallery2 {
+
+    padding-top: 4%;
+    padding-left: 5%;
+    margin: 0;
+    margin-right: 0%;
+    width: 40%;
+    float: left;
+}
+
+.EmbedVideo {
+    padding-left: 5%;
+}
+
+.CaseStudyImageGallery2 img {
+
+    margin: 0;
+
+    width: 95%;
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .CaseStudyHeaderImage {
+
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+
+
+    .TitleWrapText {
+        font-size: 5vw;
+        padding-bottom: 10%;
+    }
+
+    .TitleWrapTextSub1 {
+        padding-left: 7.5%;
+        font-size: 5vw;
+        text-align: left;
+        width: 40ch;
+
+        margin: auto;
+
+
+
+    }
+
+    .TextWrapTextSub1 {
+        font-size: 4vw;
+        text-align: left;
+        width: 40ch;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .CaseStudyImageGallery {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15%;
+    }
+
+    .CaseStudyImageGallery img {
+        text-align: center;
+        padding-top: 5%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .CaseStudyImageGallery1 {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15%;
+    }
+
+    .CaseStudyImageGallery1 img {
+        text-align: center;
+        padding-top: 5%;
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+    .CaseStudyImageGallery2 {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15%;
+    }
+
+    .CaseStudyImageGallery2 img {
+        text-align: center;
+        padding-top: 5%;
+        margin: auto;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        padding-right: 0;
+
+    }
+
+    .EmbedVideo {
+        padding: 0;
+    }
+
+
+}
+
+/*PROCESS PAGE*/
+
+@media only screen and (max-width: 800px) {
+
+    .TitleWrapTextSub2 {
+
+        font-size: 5vw;
+        text-align: left;
+        max-width: 30ch;
+        width: 100%;
+
+        padding-left: 7.5%;
+        padding-bottom: 5%;
+
+
+    }
+
+}
+
+/*ABOUT ME PAGE*/
+
+
+.AboutMePageTitle {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 17%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.5vw;
+
+
+}
+
+.TextWrapTextye {
+    font-family: 'Inconsolata', monospace;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 1.2vw;
+}
+
+.TextWrapTextABOUT {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2vw;
+    width: 75%;
+    padding-top: 2%;
+    padding-left: 6%;
+}
+
+.TextWrapTextSub3 {
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+}
+
+.AboutMeImg {
+    padding-top: 7%;
+    padding-left: 5%;
+    font-family: 'Inconsolata', monospace;
+
+
+}
+
+.AboutMeImg img {
+    width: 60%;
+    float: right;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .AboutMeImg img {
+        padding-left: 3%;
+    }
+
+    .TextWrapTextye {
+        font-size: 4vw;
+        padding: 0;
+        max-width: 40ch;
+        padding-left: 7.5%;
+    }
+
+    .TextWrapTextABOUT {
+        padding: 0;
+        font-size: 4vw;
+        max-width: 40ch;
+        width: 100%;
+        padding-left: 7.5%;
+    }
+
+    .AboutMePageTitle {
+        font-size: 5vw;
+        padding-left: 7.5%;
+        padding-bottom: 10%;
+    }
+
+
+}
+
+/*HIDDEN NY PAGE*/
+
+.HiddenNYLayout {
+   padding-left: 3.5%;
+}
+
+.HiddenNYLayout img {
+    width: 70%;
+}
