@@ -41,9 +41,10 @@ a:visited {
 }
 
 /*mobile*/
-@media only screen and (max-width:450px) {
+
+@media only screen and (min-width:280px) {
     .logo {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     
     .announcement {
@@ -53,6 +54,46 @@ a:visited {
     
     li {
        font-size: 4vw; 
+    }
+    
+    .container {
+        text-align: left;
+        
+    }
+}
+
+@media only screen and (min-width:680px) {
+    .logo {
+        font-size: 5vw;
+    }
+    
+    .announcement {
+        font-size: 3.1vw;
+        min-width: 40ch;
+    }
+    
+    li {
+       font-size: 3.1vw; 
+    }
+    
+    .container {
+        text-align: left;
+        
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .logo {
+        font-size: 1.5vw;
+    }
+    
+    .announcement {
+        font-size: 1.1vw;
+        min-width: 40ch;
+    }
+    
+    li {
+       font-size: 1.1vw; 
     }
     
     .container {
