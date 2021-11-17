@@ -5,7 +5,7 @@ body {
 .navbar {
     padding-left: 5%;
     padding-top: 5%;
-    position: fixed;
+    
 
 }
 
@@ -21,7 +21,8 @@ body {
 .announcement {
     font-family: 'Inconsolata', monospace;
     font-size: 1em;
-    max-width: 45ch;
+    max-width: 35ch;
+   
 }
 
 .textwrap {
@@ -42,7 +43,7 @@ html {
 
     /*    background-color: aqua;*/
     display: flex;
-    padding-top: 120vh;
+    padding-top: 110vh;
 
     padding-bottom: 0;
     justify-content: center;
@@ -108,7 +109,23 @@ a:visited {
 /*mobile*/
 
 
-@media only screen and (min-width:280px) {
+@media only screen and (max-width:540) {
+    
+    .navbar {
+    padding-left: 5%;
+    padding-top: 5%;
+        position:relative;
+        max-width: 35ch;
+
+}
+    
+   
+    
+    
+    
+    .logo {
+        position: fixed;
+    }
 
 
     .artcontainer {
@@ -152,46 +169,22 @@ a:visited {
 
 
 @media only screen and (min-width:800px) {
-    body {
-        background-color: lightgray;
-    }
-
+    
     .navbar {
-        padding-left: 5%;
-        padding-top: 5%;
-        position: fixed;
+    padding-left: 5%;
+    padding-top: 5%;
+    position: fixed;
 
+}
+    
+    .mobilehomeimg{
+        display: none;
     }
-
-
-    .logo {
-        font-family: 'Inconsolata', monospace;
-        font-size: 1.6em;
-        padding-bottom: 1%;
-
-
-    }
-
-    .announcement {
-        font-family: 'Inconsolata', monospace;
-        font-size: 1em;
+    
+     .announcement {
         max-width: 45ch;
     }
-
-    .textwrap {
-        font-family: 'Inconsolata', monospace;
-        font-size: 1em;
-
-    }
-
-    html {
-        scroll-behavior: smooth
-    }
-
-    .catcher {
-        margin-top: -5vh;
-    }
-
+    
     .artcontainer1 {
 
         /*    background-color: aqua;*/
@@ -211,9 +204,9 @@ a:visited {
     .artcontainer {
 
         display: flex;
-        padding-top: 20%;
+        padding-top: 10%;
         align-content: center;
-        padding-bottom: 0;
+        padding-bottom: 2%;
       
         width: 95%;
         margin-left: auto;
