@@ -6,28 +6,28 @@ body {
     padding-left: 5%;
     padding-top: 5%;
     position: fixed;
-   
+
 }
 
 
 .logo {
-     font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 1.6em;
     padding-bottom: 1%;
-   
-   
+
+
 }
 
 .announcement {
-     font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 1em;
-     max-width: 45ch;
+    max-width: 45ch;
 }
 
 .textwrap {
-     font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 1em;
-   
+
 }
 
 html {
@@ -35,58 +35,59 @@ html {
 }
 
 .catcher {
-   margin-top: -5vh;
+    margin-top: -5vh;
 }
 
 .artcontainer1 {
 
-/*    background-color: aqua;*/
+    /*    background-color: aqua;*/
     display: flex;
     padding-top: 120vh;
-  
+
     padding-bottom: 0;
     justify-content: center;
-   
-    
+
+
 }
 
 .artcontainer1 > div {
-    
-    height: 95vh;
-  
+
+    height: 100%;
+
 }
 
 .artcontainer {
 
-/*    background-color: aqua;*/
+    /*    background-color: aqua;*/
     display: flex;
     padding-top: 20%;
-  
-    padding-bottom:0;
+
+    padding-bottom: 0;
     justify-content: center;
-  
-    
+
+
 }
 
 .artcontainer > div {
-    
-    height: 95vh;
-  
+
+    height: 100%;
+
 }
 
 
 .imagewrap img {
-    height: 95%;
- 
+    height: 90vh;
+
 }
 
 ul {
     padding-left: 0;
 }
+
 li {
     padding-bottom: 1%;
     display: block;
-     font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 1em;
 }
 
@@ -105,20 +106,34 @@ a:visited {
 
 @media only screen and (min-width:280px) {
 
+
+    .artcontainer1 > div {
+/*        display: inline-block;*/
+       
+
+    }
+
+    .artcontainer > div {
+/*        display: inline-block;*/
+       
+    }
+
+    .imagewrap img {
+       height: auto;
+        width: 90vw;
+    margin-left: auto;
+        margin-right: auto;
+
+
+    }
 }
 
-tablet
+/*tablet*/
 
-@media only screen and (min-width:680px) {
-    
-}
+@media only screen and (min-width:680px) {}
 
 
 /*desktop*/
 
 
-@media only screen and (min-width:1280px) {
-    
-}
-
-
+@media only screen and (min-width:1280px) {}
