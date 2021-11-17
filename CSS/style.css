@@ -42,9 +42,9 @@ html {
 
 /*    background-color: aqua;*/
     display: flex;
-    padding-top: 100vh;
+    padding-top: 120vh;
   
-    padding-bottom: 2%;
+    padding-bottom: 0;
     justify-content: center;
    
     
@@ -62,7 +62,7 @@ html {
     display: flex;
     padding-top: 20%;
   
-    padding-bottom: 2%;
+    padding-bottom:0;
     justify-content: center;
   
     
