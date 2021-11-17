@@ -5,19 +5,79 @@ body {
 .navbar {
     padding-left: 5%;
     padding-top: 5%;
-
+    position: fixed;
+   
 }
+
 
 .logo {
      font-family: 'Inconsolata', monospace;
-    font-size: 1.5vw;
+    font-size: 1.6em;
     padding-bottom: 1%;
+   
+   
 }
 
 .announcement {
      font-family: 'Inconsolata', monospace;
-    font-size: 1.1vw;
+    font-size: 1em;
      max-width: 45ch;
+}
+
+.textwrap {
+     font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+   
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.catcher {
+   margin-top: -5vh;
+}
+
+.artcontainer1 {
+
+/*    background-color: aqua;*/
+    display: flex;
+    padding-top: 100vh;
+  
+    padding-bottom: 2%;
+    justify-content: center;
+   
+    
+}
+
+.artcontainer1 > div {
+    
+    height: 95vh;
+  
+}
+
+.artcontainer {
+
+/*    background-color: aqua;*/
+    display: flex;
+    padding-top: 20%;
+  
+    padding-bottom: 2%;
+    justify-content: center;
+  
+    
+}
+
+.artcontainer > div {
+    
+    height: 95vh;
+  
+}
+
+
+.imagewrap img {
+    height: 95%;
+ 
 }
 
 ul {
@@ -27,7 +87,7 @@ li {
     padding-bottom: 1%;
     display: block;
      font-family: 'Inconsolata', monospace;
-    font-size: 1.1vw;
+    font-size: 1em;
 }
 
 a:link {
@@ -42,63 +102,23 @@ a:visited {
 
 /*mobile*/
 
+
 @media only screen and (min-width:280px) {
-    .logo {
-        font-size: 6vw;
-    }
-    
-    .announcement {
-        font-size: 4vw;
-        min-width: 40ch;
-    }
-    
-    li {
-       font-size: 4vw; 
-    }
-    
-    .container {
-        text-align: left;
-        
-    }
+
 }
+
+tablet
 
 @media only screen and (min-width:680px) {
-    .logo {
-        font-size: 5vw;
-    }
     
-    .announcement {
-        font-size: 3.1vw;
-        min-width: 40ch;
-    }
-    
-    li {
-       font-size: 3.1vw; 
-    }
-    
-    .container {
-        text-align: left;
-        
-    }
 }
 
-@media only screen and (min-width:1000px) {
-    .logo {
-        font-size: 1.5vw;
-    }
+
+/*desktop*/
+
+
+@media only screen and (min-width:1280px) {
     
-    .announcement {
-        font-size: 1.1vw;
-        min-width: 40ch;
-    }
-    
-    li {
-       font-size: 1.1vw; 
-    }
-    
-    .container {
-        text-align: left;
-        
-    }
 }
+
 
