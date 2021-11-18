@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    
 }
 
 .navbar {
@@ -39,17 +40,7 @@ html {
     margin-top: -5vh;
 }
 
-.artcontainer1 {
 
-    /*    background-color: aqua;*/
-    display: flex;
-    padding-top: 110vh;
-
-    padding-bottom: 0;
-    justify-content: center;
-
-
-}
 
 .artcontainer1 > div {}
 
@@ -57,7 +48,7 @@ html {
 
     /*    background-color: aqua;*/
     display: flex;
-    padding-top: 20%;
+    padding-top: 10%;
 
     padding-bottom: 0;
     justify-content: center;
@@ -78,6 +69,43 @@ html {
 
 
 .imagewrap img {
+    
+     animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 
     width: 100%;
     margin-left: auto;
@@ -204,9 +232,9 @@ a:visited {
     .artcontainer {
 
         display: flex;
-        padding-top: 10%;
+        padding-top: 2%;
         align-content: center;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
       
         width: 95%;
         margin-left: auto;
