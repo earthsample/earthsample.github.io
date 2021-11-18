@@ -111,6 +111,88 @@ html {
     margin-left: auto;
     margin-right: auto;
 
+}     animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}     animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 ul {
@@ -137,53 +219,59 @@ a:visited {
 /*mobile*/
 
 
-@media only screen and (max-width:540) {
+@media only screen and (max-width:500px) {
     
     .navbar {
     padding-left: 5%;
     padding-top: 5%;
-        position:relative;
+        position:fixed;
         max-width: 35ch;
+        z-index: 1;
+      
 
 }
     
-   
+    .announcementdesktop {
+        display: none;
+    }
     
     
     
     .logo {
-        position: fixed;
+        
     }
 
 
     .artcontainer {
-        width: auto;
-    }
-
-    .artcontainer1 > div {
-        /*        display: inline-block;*/
-
-
-    }
-
-    .artcontainer > div {
-        /*        display: inline-block;*/
+         display: flex;
+        padding-top: 2%;
+        align-content: center;
+        padding-bottom: 3%;
+      
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
+    
+   
+
+   
 
     .imagewrap {
-        width: 100%;
+       
     }
 
     .imagewrap img {
-        width: 100%;
-        margin: auto;
-
+     width: 95vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     artcontainer > div {
 
-        width: 87%;
+       
 
     }
 }
