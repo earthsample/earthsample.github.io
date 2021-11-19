@@ -450,11 +450,11 @@ a:visited {
      .artcontainersquare {
 
         display: flex;
-        padding-top: 10vh;
+        padding-top: 12vh;
         align-content: center;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
 
-        width: 70%;
+        width: 78%;
         margin-left: auto;
         margin-right: auto;
 
@@ -468,7 +468,8 @@ a:visited {
     
      .artcontainersquare > div {
 
-        height: 100%;
+        height: 90%;
+         
 
     }
 
@@ -483,7 +484,7 @@ a:visited {
      .imagewrapsquare {
         display: flex;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         height: auto;
   margin-left: auto;
          margin-right: auto;
@@ -503,7 +504,7 @@ a:visited {
      .imagewrapsquare img {
 
 
-        height: 80vh;
+        height: 70vh;
         width: auto;
        
 
